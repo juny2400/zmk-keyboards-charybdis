@@ -29,6 +29,7 @@
         compatible = "zmk,physical-layout";
         display-name = "5-column";
 
+        kscan = <&kscan0>;
         transform = <&five_column_transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
